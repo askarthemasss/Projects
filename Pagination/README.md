@@ -9,3 +9,6 @@
 * Simple Pagination which allows user to switch between pages
 * User can choose how many records to be displayed on a single page
 * Next and Previous Page buttons
+
+## Codesandbox Link
+https://i8bzn6.csb.app/
