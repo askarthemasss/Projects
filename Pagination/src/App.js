@@ -13,14 +13,17 @@ export default function App() {
       .then((res) => setTodos(res.data));
   }, []);
 
+  // for creating Page Number buttons
   const totalPages = Math.ceil(todos.length / todosPerPage);
   const pages = [...Array(totalPages + 1).keys()].slice(1);
 
+  // For showing todos as per selected page
   const indexOfLastTodo = currentPage * todosPerPage;
   const indexOfFirstTodo = indexOfLastTodo - todosPerPage;
 
   const visibleTodos = todos.slice(indexOfFirstTodo, indexOfLastTodo);
 
+  // Previous and Next Buttons
   const prevButton = () => {
     if (currentPage !== 1) {
       setCurrentPage(currentPage - 1);
