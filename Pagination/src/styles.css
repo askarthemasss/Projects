@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  /* position: relative; */
+}
+
+.active {
+  background-color: black;
+  color: chartreuse;
+  margin: 0.5rem;
+}
+
+button {
+  margin: 0.2rem;
+  padding: 0.4rem;
+  cursor: pointer;
+  border: none;
+}
+
+.pagination {
+  /* padding: 5rem; */
+  position: static;
+  /* bottom: 0; */
+}
+
+.prevAndNext,
+.pages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
