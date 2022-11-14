@@ -1,0 +1,36 @@
+html {
+  font-size: 62.5%;
+}
+
+.App {
+  /* font-family: sans-serif; */
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+input {
+  padding: 0.3rem;
+  /* border: 2px solid black; */
+  margin-bottom: 2rem;
+}
+/* input:active{
+  border-color: white;
+} */
+
+li {
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+}
+
+table {
+  /* margin: 0 auto; */
+  margin-left: 2rem;
+  text-align: left;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .App {
+    font-size: 1rem;
+  }
+}
